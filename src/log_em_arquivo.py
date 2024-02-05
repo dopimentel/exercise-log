@@ -15,4 +15,3 @@ class LogEmArquivo(ManipuladorDeLog):
         with open(path, "a") as arquivo:
 
             print(msg, file=arquivo)
-            arquivo.flush()
